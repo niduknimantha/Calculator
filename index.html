@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Meta Tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="This webpage was created by niduk nimantha">
+    <meta property="og:image" content="https://img.icons8.com/fluency/96/000000/calculator.png" />
+
+    <meta property="og:title" content="Calculator"/>
+    <meta property="og:type" content="Calculator"/>
+    <meta property="og:url" content="https://niduknimantha.github.io/Calculator"/>
+    <meta property="og:image" content="https://img.icons8.com/fluency/96/000000/calculator.png"/>
+    <meta property="og:description" content="Calculator"/>
+    <meta property="og:site_name" content="Calculator"/>
+    <meta property="og:locale" content="en_US"/>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/96/000000/calculator.png" type="image/x-icon">
+
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Title -->
+    <title>Calculator</title>
+</head>
+<body>
+
+<!-- Js File-->
+<script src="script.js"></script>
+
+<br>
+
+<!-- Card -->
+<div class="cards">
+      <div class="card">
+        <center>
+            <b><p id="demo" class="Username"></p></b>
+            <img src="https://img.icons8.com/fluency/240/000000/calculator.png" class="img1">
+        </center>
+
+        <div class="container">
+            
+            <center>
+                <h2><b><i class="fa-brands fa-square-js"></i> Calculator</b></h2>
+                
+                <button onclick="Calculator()" class="btn1" title="You can hit this button & solve your mathematical problems">Start Calculation</button>
+                <br><br>
+                <a href="https://github.com/niduknimantha" target="_blank"><button class="btn2" title="My Github Profile"><i class="fa-brands fa-github"></i></button></a>
+                <br>
+                <p title="All Rights Recerved | &copy; Niduk Nimantha">&copy; Niduk Nimantha</p>
+            </center> 
+      </div>
+    </div>
+</div>
+
+<!-- Js Inner HTML -->
+<script>
+    
+//Usernames of special persons
+
+if (Username == "Niduk"){
+	document.getElementById("demo").innerHTML = "Hello " + "Owner" + "...";
+}
+else if (Username == "niduk"){
+	document.getElementById("demo").innerHTML = "Hello " + "Owner" + "...";
+}
+
+else if (Username == "Sachindu"){
+	document.getElementById("demo").innerHTML = "Hello " + "මල්ලි " + "...";
+}
+else if (Username == "sachindu"){
+	document.getElementById("demo").innerHTML = "Hello " + "මල්ලි " + "...";
+}
+
+else if (Username == "Ranga"){
+	document.getElementById("demo").innerHTML = "Hello " + "තාත්තේ  " + "...";
+}
+else if (Username == "ranga"){
+	document.getElementById("demo").innerHTML = "Hello " + "තාත්තේ " + "...";
+}
+
+else if (Username == "Chandima"){
+	document.getElementById("demo").innerHTML = "Hello " + "අම්මේ  " + "...";
+}
+else if (Username == "chandima"){
+	document.getElementById("demo").innerHTML = "Hello " + "අම්මේ " + "...";
+}
+
+else if (Username == "Yoshitha"){
+	document.getElementById("demo").innerHTML = "Hello " + Username  + " මල්ලි " + "...";
+}
+else if (Username == "yoshitha"){
+	document.getElementById("demo").innerHTML = "Hello " + Username  + " මල්ලි" + "...";
+}
+
+
+else{
+	document.getElementById("demo").innerHTML = "Hello " + Username + "...";
+}
+
+document.addEventListener("contextmenu", function(event){
+    event.preventDefault();
+    alert('Function Disabled');    
+    }, false);
+
+</script>
+
+</body>
+</html>
