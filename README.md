@@ -10,3 +10,5 @@
 <br><br>
 
 ## Developed By - Niduk Nimantha
+
+<h5 align="center">© 2022 | <a href="https://niduknimantha.github.io/My-Official-Website">Niduk Nimantha</a> | All Right Reserved.</h5>
