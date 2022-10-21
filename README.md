@@ -7,7 +7,7 @@
 <br><br> Calculator</h1>
 <h3 align="center">I'm a passionate Developer and Content Creator from Sri Lanka. 💻</h3>-->
 <br><br>
-<b>Available at : <a href="https://niduknimantha.github.io/Calculator/">Click Here</a></b>
+<b>Available at : <a href="https://calc.niduk.tk">Click Here</a></b>
 <br><br>
 
 <h5 align="center">Developed By - Niduk Nimantha</h5>
