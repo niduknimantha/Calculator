@@ -12,4 +12,4 @@
 
 <h5 align="center">Developed By - Niduk Nimantha</h5>
 
-<h5 align="center">© 2022 | <a href="https://niduknimantha.github.io/My-Official-Website">Niduk Nimantha</a> | All Right Reserved.</h5>
+<h5 align="center">© 2022 | <a href="https://niduk.tk">Niduk Nimantha</a> | All Right Reserved.</h5>
